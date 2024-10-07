@@ -1,0 +1,29 @@
+# Python 관련
+__pycache__/
+venv/
+*.lock
+
+# DuckDB 관련
+*.db
+*.duckdb
+
+# Jupyter 노트북 체크포인트
+.ipynb_checkpoints/
+
+# 데이터 파일 (너무 크거나 개인 정보를 포함할 수 있음)
+data/raw/*
+data/processed/*
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.temp
+*.bak
+
+# 운영체제 관련
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code 설정
+.vscode/

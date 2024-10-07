@@ -1,0 +1,27 @@
+./
+    .gitignore
+    README.md
+    requirements.txt
+    tree.py
+    tree.txt
+    data/
+        sample.db
+        개인통행실태조사.db
+        개인통행실태조사_DB 구조.txt
+        processed/
+            개인통행실태조사(2021년기준)/
+                ①개인특성.csv
+                ②이동특성.csv
+        raw/
+            개인통행실태조사(2021년기준)/
+                Code book.xlsx
+                ①개인특성.csv
+                ②이동특성.csv
+                행정동코드_20210726(말소코드포함).xlsx
+    notebooks/
+        check_data.ipynb
+        sample_duckdb.ipynb
+        개인통행실태조사.ipynb
+    results/
+        개인통행실태조사_2021_목요일_만5세미만가구_승용차승합차_탑승2인이상.xlsx
+    tests/

@@ -1,0 +1,29 @@
+wheel
+
+notebook
+ipykernel
+
+wcwidth
+tabulate[widechars]
+tqdm
+
+# dataframe handling
+duckdb
+pandas
+dask
+polars
+
+# excel handling
+xlsx2csv
+openpyxl
+xlrd  # xls
+
+# machine learning
+scikit-learn
+
+# visualization
+matplotlib>=3.6
+seaborn
+
+# nlp
+# konlpy  # needs jdk?
