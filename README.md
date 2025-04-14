@@ -12,5 +12,30 @@ Quacklytics는 DuckDB를 사용하여 데이터를 효율적으로 분석하는 
 1. 이 저장소를 클론합니다:
 
 ```bash
-git clone https://github.com/esnahn/Quacklytics.git
+git clone https://github.com/esnahn/quacklytics.git
+```
+
+2. 프로젝트 디렉토리로 이동합니다:
+
+```bash
+cd quacklytics
+```
+
+3. 가상 환경을 생성하고 활성화합니다:
+
+```bash
+# 가상 환경 생성
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# macOS/Linux
+source .venv/bin/activate
+```
+
+4. 필요한 패키지를 설치합니다:
+
+```bash
+pip install -r requirements.txt
 ```

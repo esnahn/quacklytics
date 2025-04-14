@@ -1,6 +1,6 @@
 wheel
 
-notebook
+# notebook
 ipykernel
 
 wcwidth
@@ -18,8 +18,18 @@ xlsx2csv
 openpyxl
 xlrd  # xls
 
+# shp handling
+geopandas
+shapely>=2.0.0  # Interface to GEOS
+pyogrio>=0.7.2  # Interface to GDAL
+pyproj>=3.3.0   # Interface to PROJ
+packaging
+
+# large shp handling
+dask-geopandas
+
 # machine learning
-scikit-learn
+# scikit-learn
 
 # visualization
 matplotlib>=3.6
