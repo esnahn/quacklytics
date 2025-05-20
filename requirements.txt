@@ -29,7 +29,7 @@ packaging
 dask-geopandas
 
 # machine learning
-# scikit-learn
+scikit-learn
 
 # visualization
 matplotlib>=3.6
