@@ -8,7 +8,7 @@ tabulate[widechars]
 tqdm
 
 # dataframe handling
-duckdb
+duckdb~=1.2.2
 pandas
 dask
 polars
