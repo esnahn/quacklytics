@@ -37,5 +37,6 @@ source .venv/bin/activate
 4. 필요한 패키지를 설치합니다:
 
 ```bash
+scoop install python iconv gawk
 pip install -r requirements.txt
 ```
