@@ -35,7 +35,7 @@ boxplot.capprops.linewidth: 0.2
 boxplot.medianprops.linewidth: 0.2
 boxplot.meanprops.linewidth: 0.2
 
-font.family: sans-serif, KoPubDotum Medium
+font.family: KoPubDotum Medium, sans-serif
 font.size: 8.0
 
 figure.labelsize: large  # default
