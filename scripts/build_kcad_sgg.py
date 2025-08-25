@@ -35,7 +35,7 @@ df = pd.read_excel(
     ],
 )
 df.columns = [col.replace("\n", "") for col in df.columns]
-print(tabulate(df.head(), headers="keys"))
+print(tabulate(df.head(), headers="keys"))  # type: ignore
 
 # Filter the DataFrame to get rows where 법정동코드 ends with "00000" and is not "00000000"
 five_zero_df = df[
@@ -47,7 +47,7 @@ final_df = five_zero_df[five_zero_df["행정구역분류"].str.len() == 5]
 final_df["시군구코드"] = final_df["법정동코드"].str[:5]
 # make it index
 final_df = final_df.set_index("시군구코드")
-print(tabulate(final_df.head(), headers="keys"))
+print(tabulate(final_df.head(), headers="keys"))  # type: ignore
 
 # save to csv, with 시군구코드 as index, encoding as utf-8-sig
 final_df.to_csv(csv_to, index=True, encoding="utf-8-sig")
